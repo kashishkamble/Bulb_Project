@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <button onclick="bulbon()">Turn on light</button>
+    <img src="off.gif" alt="" id="myimg">
+    <button onclick="bulboff()">Turn off light</button>
+   <script>
+    function bulbon(){
+        document.getElementById("myimg").src="on.gif";
+    }
+    function bulboff(){
+        document.getElementById("myimg").src="off.gif";
+    }
+   </script> 
+</body>
+</html>
